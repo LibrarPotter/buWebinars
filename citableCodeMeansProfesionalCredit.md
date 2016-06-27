@@ -13,6 +13,7 @@ date: June 25, 2016
 
 # Goal of this session
 
+## Second-Level Slide 
 Getting Credit for Your Work
 
 Citing Code
@@ -31,8 +32,6 @@ Unique Identifiers
 ## If you use GitHub, preserving your code in [Zenodo](http://zenodo.org) is easy!
 
 ![Zenodo logo](https://zenodo.org/img/logos/zenodo-gradient-200.png "Zenodo's logo")
-
-
 
 ## Make your code citable
 
