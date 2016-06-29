@@ -13,6 +13,7 @@ date: June 25, 2016
 
 # Webinar on software preservation/citation
 
+
 ## Topics to cover 
 Getting Credit for Your Work
 
@@ -23,10 +24,10 @@ Unique Identifiers
 
 # Are you writing scientific code or software?
 
+
 ## How is your work credited in papers?
 
 ## Software can be cited directly
-
 Software papers aren't the only option
 
 ## Software is a research product
@@ -89,3 +90,4 @@ Most fields will auto-populate based on your GitHub repository
 1. <https://www.force11.org/software-citation-principles>
 2. <http://journals.aas.org/policy/software.html>
 3. <https://guides.github.com/activities/citable-code/>
+
