@@ -8,22 +8,22 @@ date: June 25, 2016
 
 ## Librarian
 
-+ Intern for the Research Data Management Librarian at Boston University
++ [Website](https://librarpotter.github.io/)
++ Intern for the [Research Data Management Librarian](http://www.bu.edu/library/profile/thomas-hohenstein/) at Boston University
 + Final semester at Simmons College
 
-# Webinar on software preservation/citation
+# Webinar on software citation/preservation
 
 
 ## Topics to cover 
-Getting Credit for Your Work
+Getting Credit for Your Code
 
-Citing Code
+Citing Code/Software
 
-Unique Identifiers
+GitHub/Zenodo Webhook
 	
 
-# Are you writing scientific code or software?
-
+# Are you writing scientific code/software?
 
 ## How is your work credited in papers?
 
@@ -34,9 +34,9 @@ Software papers aren't the only option
 
 # How do you cite software?
 
-## Pro tip: software citations belong in your reference section <sup>1</sup>
+## Software citations belong in your reference section
 
-## Software citations on a paper should include
+## A good citation includes
 
 + Unique Identifier (e.g. DOI)
 + Software name
@@ -44,49 +44,65 @@ Software papers aren't the only option
 + Version number
 + Release date
 + Location/repository
-+ (recommended but optional) Software license
++ Software license (if possible)
 
-## Version control systems:
-..+ [GitHub](https://github.com/)
-..+ [BitBucket](https://bitbucket.org/)
+## Example Citation
 
-## Not intended for preservation!
-(This means it isn't stable enough for a *good* citation)
+Foreman-Mackey et al. 2014, corner.py, v0.1.1, Zenodo, doi:10.5281/zenodo.11020, as developed on GitHub
 
-# You can get a DOI for a your software
+## Version control systems like:
++ [GitHub](https://github.com/)
++ [BitBucket](https://bitbucket.org/)
+
+## Are Not for preservation!
+
+Good citations require more stability
+
+# Want to cite and preserve your code/software?
+
+## Get a DOI for your work
+
+## Digital Object Identifier (DOI):
+
+"A unique and persistent string of characters used to identify a journal article, website, or other item of intellectual property, typically one in digital form."
 
 ## Digital repositories that issue DOIs for code/software:
 + [Figshare](https://figshare.com/)
 + [Zenodo](http://zenodo.org)
 
-## If you use GitHub, getting a DOI in Zenodo is easy
+## GitHub and Zenodo collaboration
 
-![Zenodo logo](https://zenodo.org/img/logos/zenodo-gradient-200.png "Zenodo's logo")
+Getting a DOI for a GitHub repository through Zenodo is easy
 
-## Make an account with Zenodo using your GitHub account 
+# Overview of getting a DOI through GitHub and Zenodo
 
-(or link your Zenodo account to GitHub in the linked accounts section on Zenodo)
+## Sign-up for Zenodo using your GitHub account 
 
-## Authorize the web hooks
+(or link your accounts through Zenodo)
+
+## Authorize the webhook
 
 ## Go to the GitHub section of Zenodo
 
-## Flip the switch on the GitHub repository you want to preserve
+## Flip the switch on the GitHub repository you want to cite
 
 ## Create a release in GitHub
 
 ## Go to the Upload tab in Zenodo
-+ Your new release will be in the right hand section of the screen
+
+Your new release will be in the right hand section of the screen
 
 ## Select your record and update the necessary fields
 
-Most fields will auto-populate based on your GitHub repository
+Most fields will auto-populate based on information in your GitHub repository
 
-## Click submit to Mint a DOI!
+## Click **submit** to Mint a DOI!
 
-## GitHub has an easy to follow guide called [Making Your Code Citable](https://guides.github.com/activities/citable-code/)
+## Check out the GitHub guide: [Making Your Code Citable](https://guides.github.com/activities/citable-code/)
 
-# References and resources
+# Thank You
+
+## References and Resources
 1. <https://www.force11.org/software-citation-principles>
 2. <http://journals.aas.org/policy/software.html>
 3. <https://guides.github.com/activities/citable-code/>
