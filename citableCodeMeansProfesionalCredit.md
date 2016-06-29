@@ -86,6 +86,6 @@ Most fields will auto-populate based on your GitHub repository
 ## GitHub has an easy to follow guide called [Making Your Code Citable](https://guides.github.com/activities/citable-code/)
 
 # References and resources
-+ <https://guides.github.com/activities/citable-code/>
-+ <http://journals.aas.org/policy/software.html>
-+ <https://www.force11.org/software-citation-principles>
+1. <https://www.force11.org/software-citation-principles>
+2. <http://journals.aas.org/policy/software.html>
+3. <https://guides.github.com/activities/citable-code/>
