@@ -9,19 +9,19 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="revealjs/css/reveal.css">
+  <link rel="stylesheet" href="./revealjs/css/reveal.css">
   <style type="text/css">code{white-space: pre;}</style>
-  <link rel="stylesheet" href="revealjs/css/theme/bu-library.css" id="theme">
+  <link rel="stylesheet" href="./revealjs/css/theme/bu-library.css" id="theme">
   <!-- Printing and PDF exports -->
   <script>
     var link = document.createElement( 'link' );
     link.rel = 'stylesheet';
     link.type = 'text/css';
-    link.href = window.location.search.match( /print-pdf/gi ) ? 'revealjs/css/print/pdf.css' : 'revealjs/css/print/paper.css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? './revealjs/css/print/pdf.css' : './revealjs/css/print/paper.css';
     document.getElementsByTagName( 'head' )[0].appendChild( link );
   </script>
   <!--[if lt IE 9]>
-  <script src="revealjs/lib/js/html5shiv.js"></script>
+  <script src="./revealjs/lib/js/html5shiv.js"></script>
   <![endif]-->
 </head>
 <body>
@@ -37,49 +37,113 @@
 <section><section id="about-me" class="titleslide slide level1"><h1>About Me</h1></section><section id="librarian" class="slide level2">
 <h1>Librarian</h1>
 <ul>
-<li>Intern for the Research Data Management Librarian at Boston University</li>
+<li><a href="https://librarpotter.github.io/">Website</a></li>
+<li>Intern for the <a href="http://www.bu.edu/library/profile/thomas-hohenstein/">Research Data Management Librarian</a> at Boston University</li>
 <li>Final semester at Simmons College</li>
 </ul>
 </section></section>
-<section><section id="goal-of-this-session" class="titleslide slide level1"><h1>Goal of this session</h1></section><section id="second-level-slide" class="slide level2">
-<h1>Second-Level Slide</h1>
-<p>Getting Credit for Your Work</p>
-<p>Citing Code</p>
-<p>Unique Identifiers</p>
+<section><section id="webinar-on-software-citationpreservation" class="titleslide slide level1"><h1>Webinar on software citation/preservation</h1></section><section id="topics-to-cover" class="slide level2">
+<h1>Topics to cover</h1>
+<p>Getting Credit for Your Code</p>
+<p>Citing Code/Software</p>
+<p>GitHub/Zenodo Webhook</p>
 </section></section>
-<section><section id="are-you-writing-scientific-code-or-software" class="titleslide slide level1"><h1>Are you writing scientific code or software?</h1></section><section id="how-is-your-work-noted-on-papers" class="slide level2">
-<h1>How is your work noted on papers?</h1>
-</section><section id="do-you-get-credit-for-your-work" class="slide level2">
-<h1>Do you get credit for your work?</h1>
+<section><section id="are-you-writing-scientific-codesoftware" class="titleslide slide level1"><h1>Are you writing scientific code/software?</h1></section><section id="how-is-your-work-credited-in-papers" class="slide level2">
+<h1>How is your work credited in papers?</h1>
+</section><section id="software-can-be-cited-directly" class="slide level2">
+<h1>Software can be cited directly</h1>
+<p>Software papers aren't the only option</p>
+</section><section id="software-is-a-research-product" class="slide level2">
+<h1>Software is a research product</h1>
 </section></section>
-<section><section id="citing-code-made-easy" class="titleslide slide level1"><h1>Citing Code Made Easy</h1></section><section id="if-you-use-github-preserving-your-code-in-zenodo-is-easy" class="slide level2">
-<h1>If you use GitHub, preserving your code in <a href="http://zenodo.org">Zenodo</a> is easy!</h1>
-<figure>
-<img src="https://zenodo.org/img/logos/zenodo-gradient-200.png" title="Zenodo&#39;s logo" alt="Zenodo logo" /><figcaption>Zenodo logo</figcaption>
-</figure>
-</section><section id="make-your-code-citable" class="slide level2">
-<h1>Make your code citable</h1>
-<p>If you can't cite your code, you can't get proper credit for writing it.</p>
+<section><section id="how-do-you-cite-software" class="titleslide slide level1"><h1>How do you cite software?</h1></section><section id="software-citations-belong-in-your-reference-section" class="slide level2">
+<h1>Software citations belong in your reference section</h1>
+</section><section id="a-good-citation-includes" class="slide level2">
+<h1>A good citation includes</h1>
+<ul>
+<li>Unique Identifier (e.g. DOI)</li>
+<li>Software name</li>
+<li>Author(s)</li>
+<li>Version number</li>
+<li>Release date</li>
+<li>Location/repository</li>
+<li>Software license (if possible)</li>
+</ul>
+</section><section id="example-citation" class="slide level2">
+<h1>Example Citation</h1>
+<p>Foreman-Mackey et al. 2014, corner.py, v0.1.1, Zenodo, doi:10.5281/zenodo.11020, as developed on GitHub</p>
+</section><section id="version-control-systems-like" class="slide level2">
+<h1>Version control systems like:</h1>
+<ul>
+<li><a href="https://github.com/">GitHub</a></li>
+<li><a href="https://bitbucket.org/">BitBucket</a></li>
+</ul>
+</section><section id="are-not-for-preservation" class="slide level2">
+<h1>Are Not for preservation!</h1>
+<p>Good citations require more stability</p>
+</section></section>
+<section><section id="want-to-cite-and-preserve-your-codesoftware" class="titleslide slide level1"><h1>Want to cite and preserve your code/software?</h1></section><section id="get-a-doi-for-your-work" class="slide level2">
+<h1>Get a DOI for your work</h1>
+</section><section id="digital-object-identifier-doi" class="slide level2">
+<h1>Digital Object Identifier (DOI):</h1>
+<p>&quot;A unique and persistent string of characters used to identify a journal article, website, or other item of intellectual property, typically one in digital form.&quot;</p>
+</section><section id="digital-repositories-that-issue-dois-for-codesoftware" class="slide level2">
+<h1>Digital repositories that issue DOIs for code/software:</h1>
+<ul>
+<li><a href="https://figshare.com/">Figshare</a></li>
+<li><a href="http://zenodo.org">Zenodo</a></li>
+</ul>
+</section><section id="github-and-zenodo-collaboration" class="slide level2">
+<h1>GitHub and Zenodo collaboration</h1>
+<p>Getting a DOI for a GitHub repository through Zenodo is easy</p>
+</section></section>
+<section><section id="overview-of-getting-a-doi-through-github-and-zenodo" class="titleslide slide level1"><h1>Overview of getting a DOI through GitHub and Zenodo</h1></section><section id="sign-up-for-zenodo-using-your-github-account" class="slide level2">
+<h1>Sign-up for Zenodo using your GitHub account</h1>
+<p>(or link your accounts through Zenodo)</p>
+</section><section id="authorize-the-webhook" class="slide level2">
+<h1>Authorize the webhook</h1>
+</section><section id="go-to-the-github-section-of-zenodo" class="slide level2">
+<h1>Go to the GitHub section of Zenodo</h1>
+</section><section id="flip-the-switch-on-the-github-repository-you-want-to-cite" class="slide level2">
+<h1>Flip the switch on the GitHub repository you want to cite</h1>
+</section><section id="create-a-release-in-github" class="slide level2">
+<h1>Create a release in GitHub</h1>
+</section><section id="go-to-the-upload-tab-in-zenodo" class="slide level2">
+<h1>Go to the Upload tab in Zenodo</h1>
+<p>Your new release will be in the right hand section of the screen</p>
+</section><section id="select-your-record-and-update-the-necessary-fields" class="slide level2">
+<h1>Select your record and update the necessary fields</h1>
+<p>Most fields will auto-populate based on information in your GitHub repository</p>
+</section><section id="click-submit-to-mint-a-doi" class="slide level2">
+<h1>Click <strong>submit</strong> to Mint a DOI!</h1>
+</section><section id="check-out-the-github-guide-making-your-code-citable" class="slide level2">
+<h1>Check out the GitHub guide: <a href="https://guides.github.com/activities/citable-code/">Making Your Code Citable</a></h1>
+</section></section>
+<section><section id="thank-you" class="titleslide slide level1"><h1>Thank You</h1></section><section id="references-and-resources" class="slide level2">
+<h1>References and Resources</h1>
+<ol type="1">
+<li><a href="https://www.force11.org/software-citation-principles" class="uri">https://www.force11.org/software-citation-principles</a></li>
+<li><a href="http://journals.aas.org/policy/software.html" class="uri">http://journals.aas.org/policy/software.html</a></li>
+<li><a href="https://guides.github.com/activities/citable-code/" class="uri">https://guides.github.com/activities/citable-code/</a></li>
+</ol>
 </section></section>
     </div>
   </div>
 
-  <script src="revealjs/lib/js/head.min.js"></script>
-  <script src="revealjs/js/reveal.js"></script>
+  <script src="./revealjs/lib/js/head.min.js"></script>
+  <script src="./revealjs/js/reveal.js"></script>
 
   <script>
 
       // Full list of configuration options available at:
       // https://github.com/hakimel/reveal.js#configuration
       Reveal.initialize({
-        // Vertical centering of slides
-        center: true,
 
         // Optional reveal.js plugins
         dependencies: [
-          { src: 'revealjs/lib/js/classList.js', condition: function() { return !document.body.classList; } },
-          { src: 'revealjs/plugin/zoom-js/zoom.js', async: true },
-          { src: 'revealjs/plugin/notes/notes.js', async: true }
+          { src: './revealjs/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: './revealjs/plugin/zoom-js/zoom.js', async: true },
+          { src: './revealjs/plugin/notes/notes.js', async: true }
         ]
       });
     </script>
