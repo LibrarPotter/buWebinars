@@ -14,7 +14,6 @@ date: June 25, 2016
 
 # Webinar on software citation/preservation
 
-
 ## Topics to cover 
 Getting Credit for Your Code
 
@@ -106,4 +105,4 @@ Most fields will auto-populate based on information in your GitHub repository
 1. <https://www.force11.org/software-citation-principles>
 2. <http://journals.aas.org/policy/software.html>
 3. <https://guides.github.com/activities/citable-code/>
-
+4. <http://www.software.ac.uk/how-cite-and-describe-software?mpw>

@@ -16,25 +16,43 @@ date: June 25, 2016
 
 ## Topics to cover 
 
-Types of Data
++ What's a Data Management Plan?
++ Types of Data
++ Standards
++ Policies for access
++ Policies for use
++ Long-term plans
 
-Standards
+# Data Management Plan (DMP)
 
-Policies for access
+## "Special Information and Supplementary Documentation" section of grant proposal
 
-Policies for use
+## Suggested length: 2 pages
 
-Long-term plans
+## Can be formulaic.
+Find a routine 
 
 # Types of Data
 
-## What do they mean?
+## "Data" is a very inclusive concept
+
+## Do you collect or produce...?
++ Samples
++ Physical collections
++ Software
++ Curriculum materials
++ Images/video/audio
++ 3D datasets
+
+## These are all data
+
+Start your DMP with a description of them
 
 # Standards
 
 ## Choosing/Describing
 
-## What do you do if you don't have any?
+Any recomended standards in your discipline or for your type of data?
 
 # Policies for Access
 
