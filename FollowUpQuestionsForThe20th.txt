@@ -1,0 +1,13 @@
+Questions to Follow-up on video call:
+
+Ease of accessing the call
+	Any techical difficulties or challenges?
+Ability to ask questions
+	How was the interface?
+	Easy, hard, what interface?
+Audio/video quality
+Do you have a favorite? Any reason why that one is better than others?
+Additional thoughts
+
+
+pandoc -t revealjs -s pandoc.txt -o pandoc.html -V revealjs-url=./revealjs -V theme=bu-library
