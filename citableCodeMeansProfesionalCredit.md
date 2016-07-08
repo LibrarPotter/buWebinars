@@ -6,11 +6,11 @@ date: June 25, 2016
 
 # About Me
 
-## Librarian
+## Library Intern
 
-+ [Website](https://librarpotter.github.io/)
-+ Intern for the [Research Data Management Librarian](http://www.bu.edu/library/profile/thomas-hohenstein/) at Boston University
 + Final semester at Simmons College
++ Intern for the [Research Data Management Librarian](http://www.bu.edu/library/profile/thomas-hohenstein/) at Boston University
++ [My website](https://librarpotter.github.io/)
 
 # Webinar on software citation/preservation
 
@@ -72,30 +72,6 @@ Good citations require more stability
 ## GitHub and Zenodo collaboration
 
 Getting a DOI for a GitHub repository through Zenodo is easy
-
-# Overview of getting a DOI through GitHub and Zenodo
-
-## Sign-up for Zenodo using your GitHub account 
-
-(or link your accounts through Zenodo)
-
-## Authorize the webhook
-
-## Go to the GitHub section of Zenodo
-
-## Flip the switch on the GitHub repository you want to cite
-
-## Create a release in GitHub
-
-## Go to the Upload tab in Zenodo
-
-Your new release will be in the right hand section of the screen
-
-## Select your record and update the necessary fields
-
-Most fields will auto-populate based on information in your GitHub repository
-
-## Click **submit** to Mint a DOI!
 
 ## Check out the GitHub guide: [Making Your Code Citable](https://guides.github.com/activities/citable-code/)
 
