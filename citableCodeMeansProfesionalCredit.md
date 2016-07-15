@@ -1,7 +1,7 @@
 ---
 title: Citable Code
 author: Megan Potterbusch
-date: June 25, 2016
+date: July 20, 2016
 ---
 
 # About Me
@@ -9,7 +9,7 @@ date: June 25, 2016
 ## Library Intern
 
 + Final semester at Simmons College
-+ Intern for the [Research Data Management Librarian](http://www.bu.edu/library/profile/thomas-hohenstein/) at Boston University
++ Intern for the [Data Management Librarian](http://www.bu.edu/library/profile/thomas-hohenstein/) at Boston University
 + [My website](https://librarpotter.github.io/)
 
 # Webinar on software citation/preservation
