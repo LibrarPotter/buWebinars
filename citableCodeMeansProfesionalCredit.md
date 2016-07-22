@@ -78,7 +78,7 @@ Getting a DOI for a GitHub repository through Zenodo is easy
 + Managed by the CERN Data Centre
 + Experts on preserving big data
 + Funded by CERN and the EU
-
+ 
 ## Check out the GitHub guide: [Making Your Code Citable](https://guides.github.com/activities/citable-code/)
 
 # Questions?
