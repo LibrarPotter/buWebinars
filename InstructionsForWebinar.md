@@ -47,6 +47,12 @@
 
 >####*Are there any questions before we begin?*
 
+### In Question Section of Webinar:
+
+Recommend either staying on the screen share of the slides or get permission ahead to record people.
+
+If you have permission to record people, unpin your face from the main screen.
+
 ### After the webinar:
 
 As soon as you end your session a Zoom file will begin to convert to MP4 format. On my computer, Zoom creates a new folder for each new session.  The format and location are: C:\Users\Megan\Documents\zoom\2016-07-18 12.42.54 megan potterbusch's personal meeting room 5024865507 within that I have an audio only file, a file called “playback.m3u” and the full video with audio labeled zoom_0.mp4. Any messages sent/received in the chat window will also download here as a file called chat.txt.
@@ -71,3 +77,9 @@ Go to YouTube, make sure you are logged into the right account, upload the video
 ### After the webinar:
 
 Double check that the YouTube video is uploaded correctly where you want it to be and that the metadata looks accurate. This is a good time to add the recorded webinar to a playlist
+
+# Getting to the YouTube channel (as of 7/22/2016)
++ In Google, go to My Business
++ Scroll down to YouTube section
++ Click *Go to Channel*
++ Go to *Upload* - make sure YouTube shows you logged into the right account
